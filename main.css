@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #000000;
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    width: 960px;
+    margin: auto;
+}
+.div {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    padding: 16px;
+    border: rgba(255, 255, 255, 0.4) 4px solid;
+}
+#header {
+    font-size: 48px;
+    text-align: center;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0 0 0 3px;
+    padding: 0;
+    text-align: center;
+}
+.navelement {
+    display: inline;
+    margin-right: 12px;
+}
+.navlink {
+    display: inline-block;
+    padding: 8px;
+    background-color: #65afeb;
+    color: #e0f5ff;
+    border: #e0f5ff 4px solid;
+    text-decoration: none;
+}
+.navlink:hover {
+    background-color: #e0f5ff;
+    color: #65afeb;
+    border-color: #65afeb;
+}
+.news {
+    display: inline-block;
+    width: 47.1%;
+}
+#clubnews {
+    float: right;
+}
+h2 {
+    font-weight: normal;
+}
+#footer {
+    font-size: 11px;
+}
+img {
+    float: right;
+    border: #ffffff 1px solid;
+}
